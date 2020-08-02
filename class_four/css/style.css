@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+	line-height: 30px;
+}
+header{
+	width: 1200px;
+	padding: 30px 0px;
+	margin: auto;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 25%;
+    float: left;
+}
+.logo a{}
+.logo img{}
+nav{
+    width: 75%;
+    float: left;
+    margin: 0px;
+}
+nav ul{
+    justify-content: flex-end;
+    display: flex;
+    margin: 0px;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 0px;
+}
+nav ul li a{text-decoration: none;padding: 0px 30px;color: #0000006b;}
+.banner-section{
+    padding: 30px 20px;
+    margin: auto;
+}
+.banner-section img{ width: 100%; }
+.gateway-section{
+    padding: 70px 0px;
+}
+.wrapper{
+    width: 1000px;
+    margin: auto;
+}
+.gateway-content{}
+.gateway-content a{
+    text-decoration: none;
+    color: #00000052;
+    text-transform: uppercase;
+}
+.gateway-content h2{
+    padding: 20px 0px;
+    color: #000000ad;
+}
+.gateway-content p{
+    padding: 30px 0px;
+}
+
+.Lifestyle-section{}
+.floating{display: flex;justify-content: space-between;flex-wrap: wrap;}
+.col-1-2{
+    width: 45%;
+    flex-basis: 45%;
+}
+.col-1-2 img{
+    width: 100%;
+    display: block;
+}
+.col-1-2 a{
+    text-decoration: none;
+    color: #00000078;
+    padding-top: 20px;
+    display: block;
+}
+.col-1-2 h2{
+    padding: 20px 0px;
+}
+.col-1-2 p{}
+
+footer{
+    background-color: #f4a4604d;
+    padding: 30px 0px;
+}
+.copywright{}
+.copywright ul{
+    display: flex;
+    list-style: none;
+}
+.copywright ul li{}
+.copywright ul li a{
+    padding: 0px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.social{
+}
+.social ul{
+    display: flex;
+    list-style: none;
+}
+.social ul li{}
+.social ul li a{
+    padding: 0px 12px;
+    color: black;
+    text-decoration: none;
+}
